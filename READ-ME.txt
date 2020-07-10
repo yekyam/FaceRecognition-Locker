@@ -4,19 +4,24 @@ Try using New first if you have a newer version of OpenCV, if you don't then use
 Credit to: https://circuitdigest.com/microcontroller-projects/raspberry-pi-and-opencv-based-face-recognition-system
 Tutorial Code is labled TUTORIAL_CODE.py
 
-How to Setup:
+
+If there is no Face_Images folder:
+1)Make a new folder called Face_Images.
+2)Make a folder inside the new folder and call it <your name>.
+
+Setup:
 New:
-1)Add your own images to Face_Images. Rename the folder called "Manuel" to your own name
-2)Edit Face_Trainer.py's variable pev_person_name = "Manuel" to your own name
+1)Add your own images to the folder <your name>, or rename the folder called "Manuel" to your own name.
+2)Edit Face_Trainer.py's variable pev_person_name = "Manuel" to your own name.
 3)Open Face_Rec.py and change labels = ["Manuel"] to your own name.
-4)Delete face-trainner.yml and then run Face_Trainer.py
+4)Delete face-trainner.yml and then run the menu and select option 1.
 5)If face isn't detected, try changing scaleFactor =1.5 to anything between 1.1-1.5
-6)Run Menu.py
+6)Run Menu.py and select option 2.
 
 OldCode:
 1)Add your own images to Face_Images. Rename the folder called "Manuel" to your own name
-2)Edit RUN_ME.py variable pev_person_name = "Manuel" to your own name
+2)Edit Face_Trainer.py variable pev_person_name = "Manuel" to your own name
 3)Edit RUN_ME.py and change labels = ["Manuel"] to your own name.
 4)Delete face-trainner.yml and then run Face_Trainer.py
 5)If face isn't detected, try changing scaleFactor =1.5 to anything between 1.1-1.5
-6)Run RUN_ME
+6)Run RUN_ME.

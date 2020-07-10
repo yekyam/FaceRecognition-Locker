@@ -1,9 +1,14 @@
+Team members: Manuel M., Victor H
+
+Note for the judges:Thanks for hosting the hackathon! Very informative workshops, can't wait for next year!
+
 Before use, please have Python 3.x installed, OpenCV installed, and its contrib.
 Try using New first if you have a newer version of OpenCV, if you don't then use OldCode
 
 Credit to: https://circuitdigest.com/microcontroller-projects/raspberry-pi-and-opencv-based-face-recognition-system
 Tutorial Code is labled TUTORIAL_CODE.py
 
+Video is also located at root of this repo.
 
 If there is no Face_Images folder:
 1)Make a new folder called Face_Images.
